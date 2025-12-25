@@ -67,7 +67,7 @@ export const servicesSection = `
 
         <article class="card service-card">
           <div class="card-content">
-            <div class="card-icon">👨👩👧👦</div>
+            <div class="card-icon">👪</div>
             <h3 class="card-title">Group & Family Specialists</h3>
             <p class="card-description">
               Special arrangements for families with children, senior citizens, and corporate groups. We ensure activities and accommodations suit all age groups and preferences.
