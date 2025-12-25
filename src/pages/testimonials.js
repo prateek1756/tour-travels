@@ -43,34 +43,34 @@ export const testimonialsSection = `
               <div class="carousel-container">
                 <div class="carousel-track">
                   <div class="carousel-slide active">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.53 PM.jpeg" alt="Riya Sharma family trip photo 1" loading="lazy">
+                    <img src="/photos/b1/riya_1.jpeg" alt="Riya Sharma family trip photo 1" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.53 PM (1).jpeg" alt="Riya Sharma family trip photo 2" loading="lazy">
+                    <img src="/photos/b1/riya_2.jpeg" alt="Riya Sharma family trip photo 2" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.54 PM.jpeg" alt="Riya Sharma family trip photo 3" loading="lazy">
+                    <img src="/photos/b1/riya_3.jpeg" alt="Riya Sharma family trip photo 3" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.54 PM (1).jpeg" alt="Riya Sharma family trip photo 4" loading="lazy">
+                    <img src="/photos/b1/riya_4.jpeg" alt="Riya Sharma family trip photo 4" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.54 PM (2).jpeg" alt="Riya Sharma family trip photo 5" loading="lazy">
+                    <img src="/photos/b1/riya_5.jpeg" alt="Riya Sharma family trip photo 5" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.55 PM.jpeg" alt="Riya Sharma family trip photo 6" loading="lazy">
+                    <img src="/photos/b1/riya_6.jpeg" alt="Riya Sharma family trip photo 6" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.55 PM (1).jpeg" alt="Riya Sharma family trip photo 7" loading="lazy">
+                    <img src="/photos/b1/riya_7.jpeg" alt="Riya Sharma family trip photo 7" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.55 PM (2).jpeg" alt="Riya Sharma family trip photo 8" loading="lazy">
+                    <img src="/photos/b1/riya_8.jpeg" alt="Riya Sharma family trip photo 8" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.56 PM.jpeg" alt="Riya Sharma family trip photo 9" loading="lazy">
+                    <img src="/photos/b1/riya_9.jpeg" alt="Riya Sharma family trip photo 9" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b1/WhatsApp Image 2025-12-24 at 10.43.56 PM (1).jpeg" alt="Riya Sharma family trip photo 10" loading="lazy">
+                    <img src="/photos/b1/riya_10.jpeg" alt="Riya Sharma family trip photo 10" loading="lazy">
                   </div>
                 </div>
                 <button class="carousel-btn carousel-btn-prev" data-carousel="carousel-riya">‹</button>
@@ -117,40 +117,40 @@ export const testimonialsSection = `
               <div class="carousel-container">
                 <div class="carousel-track">
                   <div class="carousel-slide active">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.08 AM.jpeg" alt="Ankit Verma team trip photo 1" loading="lazy">
+                    <img src="/photos/b2/ankit_1.jpeg" alt="Ankit Verma team trip photo 1" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.09 AM.jpeg" alt="Ankit Verma team trip photo 2" loading="lazy">
+                    <img src="/photos/b2/ankit_2.jpeg" alt="Ankit Verma team trip photo 2" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.09 AM (1).jpeg" alt="Ankit Verma team trip photo 3" loading="lazy">
+                    <img src="/photos/b2/ankit_3.jpeg" alt="Ankit Verma team trip photo 3" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.09 AM (2).jpeg" alt="Ankit Verma team trip photo 4" loading="lazy">
+                    <img src="/photos/b2/ankit_4.jpeg" alt="Ankit Verma team trip photo 4" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.09 AM (3).jpeg" alt="Ankit Verma team trip photo 5" loading="lazy">
+                    <img src="/photos/b2/ankit_5.jpeg" alt="Ankit Verma team trip photo 5" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.10 AM.jpeg" alt="Ankit Verma team trip photo 6" loading="lazy">
+                    <img src="/photos/b2/ankit_6.jpeg" alt="Ankit Verma team trip photo 6" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.10 AM (1).jpeg" alt="Ankit Verma team trip photo 7" loading="lazy">
+                    <img src="/photos/b2/ankit_7.jpeg" alt="Ankit Verma team trip photo 7" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.10 AM (2).jpeg" alt="Ankit Verma team trip photo 8" loading="lazy">
+                    <img src="/photos/b2/ankit_8.jpeg" alt="Ankit Verma team trip photo 8" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.11 AM.jpeg" alt="Ankit Verma team trip photo 9" loading="lazy">
+                    <img src="/photos/b2/ankit_9.jpeg" alt="Ankit Verma team trip photo 9" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.11 AM (1).jpeg" alt="Ankit Verma team trip photo 10" loading="lazy">
+                    <img src="/photos/b2/ankit_10.jpeg" alt="Ankit Verma team trip photo 10" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.11 AM (2).jpeg" alt="Ankit Verma team trip photo 11" loading="lazy">
+                    <img src="/photos/b2/ankit_11.jpeg" alt="Ankit Verma team trip photo 11" loading="lazy">
                   </div>
                   <div class="carousel-slide">
-                    <img src="/photos/b2/WhatsApp Image 2025-12-18 at 10.39.12 AM.jpeg" alt="Ankit Verma team trip photo 12" loading="lazy">
+                    <img src="/photos/b2/ankit_12.jpeg" alt="Ankit Verma team trip photo 12" loading="lazy">
                   </div>
                 </div>
                 <button class="carousel-btn carousel-btn-prev" data-carousel="carousel-ankit">‹</button>
