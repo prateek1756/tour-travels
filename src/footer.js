@@ -19,6 +19,7 @@ export function createFooter() {
           <div class="footer-section">
             <h3>Connect</h3>
             <div class="footer-logo">
+              <img src="/vite.svg" alt="Weekend Tours & Travels Logo" class="footer-logo-img">
               <a href="/index.html" class="nav-logo">
                 Weekend Tours & Travels
               </a>
