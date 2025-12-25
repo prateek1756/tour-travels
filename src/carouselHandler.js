@@ -1,5 +1,37 @@
 // Carousel functionality for testimonial photos
 export function initializeCarousels() {
+  // Create modal for full-screen image viewing
+  const modal = document.createElement('div');
+  modal.className = 'image-modal';
+  modal.innerHTML = `
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <img class="modal-image" src="" alt="">
+      <button class="modal-close">&times;</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const modalImage = modal.querySelector('.modal-image');
+  const modalClose = modal.querySelector('.modal-close');
+  const modalOverlay = modal.querySelector('.modal-overlay');
+
+  // Close modal functions
+  function closeModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  modalClose.addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', closeModal);
+
+  // Close on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('active')) {
+      closeModal();
+    }
+  });
+
   const carousels = document.querySelectorAll('.photo-carousel');
   
   carousels.forEach(carousel => {
@@ -101,6 +133,17 @@ export function initializeCarousels() {
       }
     }
     
+    // Add click handlers to images for full-screen viewing
+    const images = carousel.querySelectorAll('.carousel-slide img');
+    images.forEach(img => {
+      img.addEventListener('click', () => {
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
     // Initialize
     showSlide(0);
     startAutoPlay();

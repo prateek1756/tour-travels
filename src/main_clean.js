@@ -1,6 +1,8 @@
 import './style.css'
 import { setupContactForm } from './formHandler.js'
 import { initializeCarousels } from './carouselHandler.js'
+import { createNav, initializeNav } from './header.js'
+import { createFooter } from './footer.js'
 import { heroHome, popularDestinations, featuresSection, quickBookingSection } from './pages/home.js'
 import { toursPageHeader, toursSection } from './pages/tours.js'
 import { servicesPageHeader, servicesSection } from './pages/services.js'
@@ -114,47 +116,16 @@ if (currentPage === 'home') {
 
 app.innerHTML = `
   <header>
-    ${nav}
+    ${createNav(currentPage)}
   </header>
   <main>
     ${mainContent}
   </main>
-  ${footer}
+  ${createFooter()}
 `
 
-// Mobile navigation toggle
-const navToggle = document.getElementById('nav-toggle')
-const navMenu = document.getElementById('nav-menu')
-
-if (navToggle && navMenu) {
-  navToggle.addEventListener('click', () => {
-    navToggle.classList.toggle('active')
-    navMenu.classList.toggle('active')
-  })
-}
-
-// Close mobile menu on link click (for small screens)
-document.querySelectorAll('.nav-link').forEach((link) => {
-  link.addEventListener('click', () => {
-    navToggle?.classList.remove('active')
-    navMenu?.classList.remove('active')
-  })
-})
-
-// Navbar scroll effect
-const navbar = document.getElementById('navbar')
-
-window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY
-
-  if (navbar) {
-    if (scrollY > 50) {
-      navbar.classList.add('scrolled')
-    } else {
-      navbar.classList.remove('scrolled')
-    }
-  }
-})
+// Initialize navigation
+initializeNav()
 
 // Initialize contact form
 setupContactForm()
