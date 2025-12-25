@@ -18,6 +18,11 @@ export function createFooter() {
           </div>
           <div class="footer-section">
             <h3>Connect</h3>
+            <div class="footer-logo">
+              <a href="/index.html" class="nav-logo">
+                Weekend Tours & Travels
+              </a>
+            </div>
             <p>Follow us for new weekend ideas, offers and travel tips.</p>
             <div class="social-links">
               <a href="#" class="social-link" aria-label="Instagram">IG</a>
